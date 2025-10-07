@@ -10,6 +10,8 @@ class Config:
         self.MONGO_URI = getenv("MONGO_URI", "")
         self.session = getenv("session", "")
         self.admin_id = int(getenv("admin_id", "926877758"))
+       # self.
 
 
 cfg = Config()
+
